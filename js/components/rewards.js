@@ -12,7 +12,7 @@ export class Rewards extends Component {
     this.props.dispatch(getSurvey());
   }
   render() {
-    console.log(this.props.surveys);
+    //console.log(this.props.surveys);
     var surveyItems;
     if (this.props.surveys) {
       let surveys = this.props.surveys.surveys;

@@ -16,7 +16,7 @@ export class Rewards extends Component {
     var surveyItems;
     if (this.props.surveys) {
       let surveys = this.props.surveys.surveys;
-      console.log("survey Length:",surveys.length);
+      //console.log("survey Length:",surveys.length);
       if(surveys.length > 0) {
         console.log("Reword exists");
           surveyItems = Object.keys(surveys).map(function(survey, index) {
